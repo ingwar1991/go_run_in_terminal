@@ -17,7 +17,7 @@ Simple wrapper to execute golang program from another golang program
 ```
 params := "param1=1 param2=tst"
 
-res, err := Run("go", []string{
+res, err := run_in_terminal.Run("go", []string{
 	"run",
 	"main.go",
 	"functions.go",
@@ -31,7 +31,7 @@ res, err := Run("go", []string{
 ```
 params := "param1=1 param2=tst"
 
-res, err := Run("./search_tw_accounts", []string{
+res, err := run_in_terminal.Run("./search_tw_accounts", []string{
 	"./test_program",
     "param0=0",
 	params,
