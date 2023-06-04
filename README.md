@@ -1,5 +1,5 @@
 # go_run_in_terminal
-Simple wrapper to execute golang program from another golang program
+Wrapper to execute golang program from another golang program
 
 ## Parameters
 `string` **execName** - name of the executable
